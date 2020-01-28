@@ -51,12 +51,21 @@ switch (true) {
 
 // 4. Write a for loop that prints all value from 1 to 100
 
-let i = 1;
+/* let i = 1;
 while(i <= 100) {
     console.log(i);
     i++;
-}
+} */
 
 // 5. Modify your for loop to make it output an exclamation point for all odd numbers instead of the number.
 
-
+let i = 1;
+while(i <= 100) {
+    if(i % 2 == 0) {
+        console.log(i);
+    }
+    else {
+        console.log("!");
+    }
+    i++;
+}
